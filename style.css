@@ -1,0 +1,47 @@
+:root{
+    --primary-color: rgb(52, 47, 55);
+    --background-color: #151316;
+    --text-color: whitesmoke;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+img {
+    width: 50%;
+    border: var(--primary-color) 2px solid;
+    border-radius: 2px;
+}
+
+a {
+    color: lightblue;
+    text-emphasis: bold;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.expand {
+    height: 60px;
+    width: 100%;
+    transition: height 0.25s;
+    -webkit-transition: height 0.25s;
+    overflow: hidden;
+}
+
+.expand:hover {
+    height: 150px;
+}
+
+.content {
+    background-color: var(--primary-color);
+    width: 98%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+}
